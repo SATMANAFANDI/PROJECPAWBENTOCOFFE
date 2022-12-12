@@ -1,0 +1,24 @@
+/**/
+:root{
+	--pr-color: #FF9933;
+}
+
+body{
+	font-family: 'Poppins', sans-serif;
+	background-color: #262626;
+}
+
+/*nav 1*/
+.navbar-brand{
+	margin-top: -20px;
+}
+
+.nav-link{
+	font-size: 14px;
+	margin-top: 5px;
+}
+
+/*nav 2*/
+.nav-item2{
+	margin-left:475px ;
+}

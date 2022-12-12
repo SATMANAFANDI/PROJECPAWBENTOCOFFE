@@ -1,0 +1,332 @@
+:root{
+	--pr-color: #FF9933;
+}
+
+body{
+	font-family: 'Poppins', sans-serif;
+	background-color: #262626;
+}
+
+/*Halaman 1*/
+.navbar-brand{
+	margin-top: -20px;
+}
+
+.nav-link{
+	font-size: 14px;
+	margin-top: 5px;
+}
+
+.nav-link.active{
+	font-weight: 700;
+}
+
+/*==============*/
+
+#about{
+	background-image: url('../img/image.png');
+	height: 593px;
+	background-repeat: no-repeat;
+	background-position: center;
+	/* margin: auto; */
+	padding: 100px;
+	padding-top: 120px;
+}
+
+.card-about{
+	/* background: orange; */
+	background:rgba(154, 118, 118, 0.26);
+	width: 408px;
+	height: 342px;
+	border-radius: 25px;
+	padding: 30px;
+	/* margin: auto; */
+	text-align: center;
+	/* background-position: center; */
+}
+
+.t1{
+	color: white;
+	font-weight: 600;
+}
+
+span{
+	color: var(--pr-color) ;
+}
+
+.t2{
+	color: white;
+	font-weight: 600;
+	margin-top: 20px;
+}
+
+.btn1{
+	background-color:var(--pr-color);
+	color: white;
+	width: 249px;
+	height: 50px;
+	font-weight: 600;
+	border: none;
+	font-size: 18px;
+	margin-top: 20px;
+	border-radius: 7px;
+	/*margin-left: 60px;*/
+}
+
+
+/*.rectangle{
+	margin-top: -630px;
+	margin-left: 110px;
+}
+
+/*.t1{
+	color: white;
+	font-weight: 600;
+	text-align: center;
+	margin-top: -450px;
+	margin-right: 640px;
+}
+*/
+/*span{
+	color: var(--pr-color) ;
+}*/
+
+/*.t2{
+	color: white;
+	font-weight: 600;
+	text-align: center;
+	margin-right: 640px;
+}*/
+
+/*.btn1{
+	background-color:var(--pr-color);
+	color: white;
+	text-decoration: none;
+	width: 249px;
+	height: 50px;
+	font-weight: 600;
+	border: none;
+	font-size: 18px;
+	margin-left: 185px;
+	margin-top: 20px;
+	border-radius: 7px;
+}
+*/
+
+
+/*Halaman 2*/
+.t3{
+	color: white;
+}
+
+.t4{
+	font-weight: 600px;
+	font-size: 48px;
+}
+
+.t3 p{
+	font-size: 24px;
+}
+
+#layanan{
+	padding: 50px;
+	margin-top: 130px;
+/*	margin-left: 50px;*/
+}
+
+.card-layanan{
+	/* width: 280px; */
+	height: 100%;
+	border-radius: 10px;
+	background-color: white;
+	padding: 40px;
+
+	transition: all .2s ease-in;
+}
+
+.circle-icon{
+	width: 100px;
+	height: 100px;
+	background-color: var(--pr-color);
+	border-radius: 50%;
+}
+
+.card-layanan h3{
+	font-weight: 600;
+	font-size: 24px;
+
+	transition: all .2s ease-in;
+}
+
+.card-layanan p{
+	font-size: 12px;
+
+	transition: all .3s ease-in;
+}
+
+
+	/*Hover*/
+
+.card-layanan:hover {
+	/* width: 280px;
+	height: 318px;
+	border-radius: 10px; */
+	background-color: var(--pr-color);
+	/* padding: 40px; */
+
+	transition: all .2s ease-in;
+}
+
+.card-layanan:hover h3{
+	font-weight: 600;
+	font-size: 24px;
+	color: white;
+
+	transition: all .2s ease-in;
+}
+
+.card-layanan:hover p{
+	font-size: 12px;
+	color: white;
+
+	transition: all .3s ease-in;
+}
+
+
+/*Best seller*/
+/*.t5{
+	text-align: center;
+	font-weight: 600px;
+	font-size: 48px;
+	margin-top: 120px;
+}
+
+.card img{
+	height: 15rem;
+}
+
+.card{
+	height: 28rem;
+}*/
+
+
+
+/*Halaman pertanyaan*/
+#contact{
+	display: grid;
+	background-image: url('../img/background_.png');
+	/*background-repeat: no-repeat;*/
+	margin-top: 150px;
+	padding: 80px 0px 0px 50px ;
+	/*atas148 kanan kiri0 bawah148px*/
+	background-size:cover;
+	height: 600px;
+}
+.card-contact{
+	background-color: white;
+	width:450px;
+	height:450px;
+	border-radius: 10px;
+	text-align: center;
+}
+
+.card-contact h1{
+	padding: 40px;
+	color:black;
+	font-size: 30px;
+	font-weight: 600;
+}
+
+.email{
+	width:380px;
+	height:80px;
+	margin-top: -20px;
+	background-color: grey;
+}
+
+.pesan{
+	width:380px;
+	height:80px;
+	margin-top: 30px;
+	background-color:grey;
+}
+
+.card-contact button{
+	background-color:#FF9933;
+	color: white;
+	width:380px;
+	height:80px;
+	font-size: 23px;
+	font-weight: bold;
+	margin-top: 30px;
+}
+
+#contact input::placeholder{
+	color: white;
+}
+
+
+@media (max-width: 570px) {
+	.card-about {
+		width: 348px;
+	}
+}
+
+@media (max-width: 767px) {
+	.contact-head {
+		display: none;
+	}
+	.description{
+		position: relative;
+		bottom: 80px;
+		margin-bottom: 30px;
+	}
+
+	.card-contact {
+		position: relative;
+		bottom: 90px;
+		width: 100%;
+		height: 280px;
+		padding-top: 2px;
+	}
+
+	.card-contact h1{
+		padding: 20px;
+		font-size: 25px;
+	}
+
+	.card-contact input{
+		width: 90%;
+		height: 45px;
+	}
+
+	.card-contact button{
+		width: 90%;
+		height: 45px;
+	}
+}
+
+@media (min-width: 768px) and (max-width: 992px) {
+	.card-contact {
+		width: 100%;
+		height: 400px;
+	}
+
+	.card-contact h1{
+		font-size: 25px;
+	}
+
+	.card-contact input{
+		width: 90%;
+		height: 70px;
+	}
+
+	.card-contact button{
+		width: 90%;
+		height: 50px;
+	}
+
+	.contact-head{
+		font-size: 24px;
+	}
+}
